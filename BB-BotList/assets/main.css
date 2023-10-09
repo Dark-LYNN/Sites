@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:900,900italic,500,500italic,700,700italic');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	background: #36393F;
+}
+.container{
+	width: 100%
+	min-height: 100vh;
+	padding-left: 2%;
+	padding-right: 4%;
+	box-sizing: border-box;
+	overflow: hidden; 
+	vertical-align: middle;
+}
+
+/* NAVBAR */ *.navbar{
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 50px;
+	cursor: pointer;
+	margin: 30px 0;
+}
+.menu-icon{
+	width: 25px;
+	cursor: pointer;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 10px 15px;
+}
+nav ul li a:hover{
+	background: black;
+	opacity: 0.15;
+	color: white;
+	padding: 10px 15px;
+}
+/* END */
+
+/* "WAVES" */
+.top {
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	z-index: -1;
+}
+.bottom {
+	position: fixed;
+  	bottom: 0;
+  	left: 0;
+  	z-index: -1;
+}
+/* END */

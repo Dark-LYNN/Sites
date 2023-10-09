@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!-- Made By LYNN UwU (SMH) -->
+<html>
+<head>
+	<!--- Main Head -->
+	<title>Kip's Project</title>					<!-- Basic Title -->
+	<meta charset="utf-8" />					<!-- Coding CharSet -->
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" /> <!-- Change scales for other resolutions -->
+	<link rel="icon" type="image/png" href="assets/images/favicon.png" /> <!-- Favicon -->
+	<meta name="description" content="A Project." />		<!-- Description -->
+	
+	<!-- Discord Embed -->
+	<meta property="theme-color" content="ffffff" /> 			<!-- Embed Color -->
+	<meta property="og:url" content="https://bdfd.gay/" /> 		<!-- Title Link -->
+	<meta property="og:type" content="website" /> 			<!-- Let discord know its a website link -->
+	<meta property="og:title" content="Lynn's AboutMe" />		<!-- Embed Title -->
+	<meta property="og:site_name" content="Kipteam's Project" />	<!-- Embed Gray Text above title -->
+	<meta property="og:description" content="UwU Project" /> 		<!-- Embed Description -->
+	
+	<!-- CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:900,900italic,500,500italic,700,700italic" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="assets/main.css" />
+	
+	<!-- JavaScript -->
+	<script src="assets/main.js"></script>
+	
+</head>
+<body>
+	<div class="container">
+
+		<svg class="top" viewBox="0 0 500 500" preserveAspectRatio="xMinYMin meet">
+			<path d="M0,100 C150,200 350,0 500,100 L500,00 L0,0 Z" style="stroke: none; fill:#2F3136;;"></path>
+		</svg>
+		
+		<div class="navbar" id="Navbar">
+			<img src="assets/images/logo.png" class="logo" onclick="window.location.href='#'">
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="./discord">Discord</a></li>
+					<li><a href="#">Premium</a></li>
+					<li><a href="#">About</a></li>
+					<li><a id="login" style="display: none;" href="https://discord.com/api/oauth2/authorize?client_id=877554085740576808&redirect_uri=https%3A%2F%2Fbbbotlist.netlify.app%2F&response_type=code&scope=identify">Login</a></li>
+				</ul>
+			</nav>
+			<img src="assets/images/menu.png" class="menu-icon" onclick="Toggle-Nav()">
+		</div>
+	</div> 
+</body>
+
+<footer>
+	<svg class="bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+	  <path fill="#0099ff" fill-opacity="1" d="M0,160L60,181.3C120,203,240,245,360,229.3C480,213,600,139,720,128C840,117,960,171,1080,186.7C1200,203,1320,181,1380,170.7L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z" style="fill:#2F3136;;"></path>
+	</svg>
+</footer>
+<script>
+	window.onload = () => {
+		const fragment = new URLSearchParams(window.location.hash.slice(1));
+		const [accessToken, tokenType] = [fragment.get('access_token'), fragment.get('token_type')];
+
+		if (!accessToken) {
+			return document.getElementById('login').style.display = 'block';
+		}
+
+		fetch('https://discord.com/api/users/@me', {
+			headers: {
+				authorization: `${tokenType} ${accessToken}`,
+			},
+		})
+			.then(result => result.json())
+			.then(response => {
+				const { username, discriminator } = response;
+				document.getElementById('info').innerText += ` ${username}#${discriminator}`;
+			})
+			.catch(console.error);
+	};
+</script>
+</html>

@@ -1,0 +1,128 @@
+@import url('https://use.fontawesome.com/releases/v5.1.0/css/all.css');
+@media screen and (min-width: 769px) {
+    .column.is-one-quarter,
+    .column.is-one-quarter-tablet {
+        -webkit-box-flex: 0;
+        -ms-flex: none;
+        flex: none;
+        width: 25%;
+    }
+}
+
+.card {
+    background-color: #545454;
+    box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
+    color: #f3f3f3;
+    max-width: 100%;
+    position: relative;
+}
+
+.column {
+    display: block;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+}
+
+body {
+    font-family: monospace;
+}
+
+.main {
+    margin: 1em 6em 1em 6em;
+}
+
+@media screen and (max-width: 1450px) {
+    .main {
+        margin: 1em 1em 1em 1em;
+    }
+}
+
+table tr:first-child th:first-child {
+    width: 20%;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.tag {
+    border-radius: 0px !important;
+    margin-left: 5px !important;
+}
+
+.card-content-command {
+    padding: 0.5rem !important;
+    font-size: 0.8em;
+}
+
+.card-command {
+    margin-bottom: 0.5em;
+}
+
+.card-header-title {
+    padding: 0.5rem !important;
+}
+
+.card-header-icon {
+    padding: 0.5rem !important;
+}
+
+.overflowtext {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.pulse {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ff0000;
+    cursor: pointer;
+    box-shadow: 0 0 0 rgba(204, 44, 44, 0.4);
+    animation: pulse 2s infinite;
+}
+
+.pulse:hover {
+    animation: none;
+}
+
+@media screen and (max-width: 770px) {
+    .tag-mobile {
+        display: none !important;
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204, 44, 44, 0.4);
+    }
+    70% {
+        -webkit-box-shadow: 0 0 0 10px rgba(204, 44, 44, 0);
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 0 rgba(204, 44, 44, 0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        -moz-box-shadow: 0 0 0 0 rgba(204, 44, 44, 0.4);
+        box-shadow: 0 0 0 0 rgba(204, 44, 44, 0.4);
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204, 44, 44, 0);
+        box-shadow: 0 0 0 10px rgba(204, 44, 44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204, 44, 44, 0);
+        box-shadow: 0 0 0 0 rgba(204, 44, 44, 0);
+    }
+}

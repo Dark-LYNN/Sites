@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>404 - Page Not Found</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./assets/images/Akira.png">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YSD2Q72W1H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-YSD2Q72W1H');
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class=" navbar nav-bar " role="navigation " aria-label="main navigation ">
+            <div class="navbar-brand ">
+                <a class="navbar-item " href="./ ">
+                    <p class="nav-name ">Akira</p>
+                </a><a role="button " class="navbar-burger burger " aria-label="menu " aria-expanded="false " data-target="navbar-unfold "><span aria-hidden="true "></span><span aria-hidden="true "></span><span aria-hidden="true "></span></a></div>
+            <div class="navbar-menu " id="navbar-unfold ">
+                <div class="navbar-end ">
+                    <a class="navbar-item " href="./ "><i class="nav-icons fas fa-home nav-fa "></i>Home</a>
+                    <a class="navbar-item " href="./commands "><i class="nav-icons fas fa-terminal nav-fa "></i>Commands</a>
+                    <a class="navbar-item " href="https://documentation.lynnux.xyz/ "><i class="nav-icons fas fa-book-open nav-fa "></i>Documentation</a>
+                    <a class="navbar-item " href="./permissions "><i class="nav-icons fas fa-check nav-fa "></i>Permissions</a>
+                    <a class="navbar-item " href="./support " target="_blank "><i class="nav-icons fab fa-discord nav-fa "></i>Support</a>
+                    <a class="navbar-item last-item " href="./invite " target="_blank "><i class="nav-icons fas fa-plus nav-fa "></i>Invite</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="Notfound_container___vm_Q">
+        <img src="https://cdn.lynnux.xyz/svg/NotFound.svg" alt="not-found" class="Notfound_not-found-img__st0se">
+        <h4 style="background-color: transparent;">
+            The page you're looking for can't be found.
+        </h4>
+        <button onclick="window.location.href='https://akira.lynnux.xyz';" class="Notfound_not-found-button__M59dr">Home</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script>
+        $(document).ready(function() {
+            $(".navbar-burger ").click(function() {
+                $(".navbar-burger ").toggleClass("is-active ");
+                $(".navbar-menu ").toggleClass("is-active ");
+            });
+        });
+    </script>
+</body>
+
+</html>

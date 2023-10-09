@@ -1,0 +1,541 @@
+[
+    {
+        "characters":["Player","Akira"],
+        "connections":[
+            {
+                "from":"START",
+                "from_port":0,
+                "to":"8541659",
+                "to_port":0
+            },
+            {
+                "from":"8541659",
+                "from_port":1,
+                "to":"7057773",
+                "to_port":0
+            },
+            {
+                "from":"8541659",
+                "from_port":0,
+                "to":"3906746",
+                "to_port":0
+            },
+            {
+                "from":"3906746",
+                "from_port":1,
+                "to":"5889258",
+                "to_port":0
+            },
+            {
+                "from":"5889258",
+                "from_port":1,
+                "to":"2927041",
+                "to_port":0
+            },
+            {
+                "from":"5889258",
+                "from_port":0,
+                "to":"7612245",
+                "to_port":0
+            },
+            {
+                "from":"3906746",
+                "from_port":0,
+                "to":"4779435",
+                "to_port":0
+            },
+            {
+                "from":"4779435",
+                "from_port":1,
+                "to":"9684130",
+                "to_port":0
+            },
+            {
+                "from":"9684130",
+                "from_port":1,
+                "to":"7678720",
+                "to_port":0
+            },
+            {
+                "from":"9684130",
+                "from_port":0,
+                "to":"4742919",
+                "to_port":0
+            },
+            {
+                "from":"4779435",
+                "from_port":0,
+                "to":"302502",
+                "to_port":0
+            },
+            {
+                "from":"302502",
+                "from_port":1,
+                "to":"2657453",
+                "to_port":0
+            },
+            {
+                "from":"302502",
+                "from_port":0,
+                "to":"7162799",
+                "to_port":0
+            },
+            {
+                "from":"7162799",
+                "from_port":1,
+                "to":"1519077",
+                "to_port":0
+            },
+            {
+                "from":"7162799",
+                "from_port":0,
+                "to":"4719741",
+                "to_port":0
+            },
+            {
+                "from":"8317460",
+                "from_port":1,
+                "to":"5542574",
+                "to_port":0
+            },
+            {
+                "from":"5542574",
+                "from_port":1,
+                "to":"3675238",
+                "to_port":0
+            },
+            {
+                "from":"4719741",
+                "from_port":1,
+                "to":"3948557",
+                "to_port":0
+            },
+            {
+                "from":"4719741",
+                "from_port":0,
+                "to":"1828654",
+                "to_port":0
+            },
+            {
+                "from":"1828654",
+                "from_port":0,
+                "to":"8317460",
+                "to_port":0
+            },
+            {
+                "from":"1828654",
+                "from_port":1,
+                "to":"6096916",
+                "to_port":0
+            },
+            {
+                "from":"8317460",
+                "from_port":0,
+                "to":"8154645",
+                "to_port":0
+            },
+            {
+                "from":"5542574",
+                "from_port":0,
+                "to":"7091747",
+                "to_port":0
+            }
+        ],
+        "editor_version":"3.2.4",
+        "file_name":"recolor.js",
+        "languages":["ENG"],
+        "nodes":[
+            {
+                "branches":{
+                    "False":"2927041",
+                    "True":"7612245"
+                },
+                "filename":"res://Nodes/Condition Branch.tscn",
+                "node_name":"5889258",
+                "node_type":"condition_branch",
+                "offset":[860,355],
+                "text":"author has admin perms",
+                "title":"Condition Branch"
+            },
+            {
+                "character":["Akira",1],
+                "expand":null,
+                "expand_size":[0,0],
+                "file":"",
+                "filename":"res://Nodes/Show Message.tscn",
+                "is_box":false,
+                "next":null,
+                "node_name":"7612245",
+                "node_type":"show_message",
+                "object_path":"",
+                "offset":[1200,180],
+                "slide_camera":true,
+                "speaker_type":0,
+                "text":
+                {
+                    "ENG":"Module disabled."
+                },
+                "title":"Show Message"
+            },
+            {
+                "character":["Akira",1],
+                "expand":null,
+                "expand_size":[0,0],
+                "file":"",
+                "filename":"res://Nodes/Show Message.tscn",
+                "is_box":false,
+                "next":null,
+                "node_name":"2927041",
+                "node_type":"show_message",
+                "object_path":"",
+                "offset":[1200,455],
+                "slide_camera":true,
+                "speaker_type":0,
+                "text":
+                {
+                    "ENG":"Module disabled."
+                },
+                "title":"Show Message"
+            },
+            {
+                "branches":{
+                    "False":"5889258",
+                    "True":"4779435"
+                },
+                "filename":"res://Nodes/Condition Branch.tscn",
+                "node_name":"3906746",
+                "node_type":"condition_branch",
+                "offset":[450,55],
+                "text":"moderation module is enabled",
+                "title":"Condition Branch"
+            },
+            {
+                "character":["Akira",1],
+                "expand":null,
+                "expand_size":[0,0],
+                "file":"",
+                "filename":"res://Nodes/Show Message.tscn",
+                "is_box":false,
+                "next":null,
+                "node_name":"7057773",
+                "node_type":"show_message",
+                "object_path":"",
+                "offset":[480,605],
+                "slide_camera":true,
+                "speaker_type":0,
+                "text":{
+                    "ENG":"No guild error"
+                },
+                "title":"Error"
+            },
+            {
+                "branches":
+                {
+                    "False":"7057773",
+                    "True":"3906746"
+                },
+                "filename":"res://Nodes/Condition Branch.tscn",
+                "node_name":"8541659",
+                "node_type":"condition_branch",
+                "offset":[5,355],
+                "text":"Command is executed in a guild. ",
+                "title":"Condition Branch"
+            },
+            {
+                "filename":"res://Nodes/Start.tscn",
+                "next":"8541659",
+                "node_name":"START",
+                "node_type":"start",
+                "offset":[-110,395],
+                "title":""
+            },
+            {
+                "branches":
+                {
+                    "False":"9684130",
+                    "True":"302502"
+                },
+                "filename":"res://Nodes/Condition Branch.tscn",
+                "node_name":"4779435",
+                "node_type":"condition_branch",
+                "offset":[860,-185],
+                "text":"recolor command is disabled",
+                "title":"Condition Branch"
+            },
+            {
+                "character":["Akira",1],
+                "expand":null,
+                "expand_size":[248.247437,272.013794],
+                "file":"",
+                "filename":"res://Nodes/Show Message.tscn",
+                "is_box":false,
+                "next":null,
+                "node_name":"7678720",
+                "node_type":"show_message",
+                "object_path":"",
+                "offset":[1750,50],
+                "slide_camera":true,
+                "speaker_type":0,
+                "text":
+                {
+                    "ENG":"Command disabled"
+                },
+                "title":"Show Message"
+            },
+            {
+                "character":["Player",0],
+                "expand":null,
+                "expand_size":[244.494873,269.51181],
+                "file":"",
+                "filename":"res://Nodes/Show Message.tscn",
+                "is_box":false,
+                "next":null,
+                "node_name":"4742919",
+                "node_type":"show_message",
+                "object_path":"",
+                "offset":[1750,-220],
+                "slide_camera":true,
+                "speaker_type":0,
+                "text":
+                {
+                    "ENG":"Command disabled"
+                },
+                "title":"Show Message"
+            },
+            {
+                "branches":
+                {
+                    "False":"7678720",
+                    "True":"4742919"
+                },
+                "filename":"res://Nodes/Condition Branch.tscn",
+                "node_name":"9684130",
+                "node_type":"condition_branch",
+                "offset":[1315,-45],
+                "text":"author has admin perms",
+                "title":"Condition Branch"
+            },
+            {
+                "character":["Akira",1],
+                "expand":null,
+                "expand_size":[0,0],
+                "file":"",
+                "filename":"res://Nodes/Show Message.tscn",
+                "is_box":false,
+                "next":null,
+                "node_name":"2657453",
+                "node_type":"show_message",
+                "object_path":"",
+                "offset":[1750,-490],
+                "slide_camera":true,
+                "speaker_type":0,
+                "text":
+                {
+                    "ENG":"Missing permission!"
+                },
+                "title":"Show Message"
+            },
+            {
+                "branches":
+                {
+                    "False":"2657453",
+                    "True":"7162799"
+                },
+                "filename":"res://Nodes/Condition Branch.tscn",
+                "node_name":"302502",
+                "node_type":"condition_branch",
+                "offset":[1315,-600],
+                "text":"User has one of the following perms: ADMIN , MANAGE ROLES",
+                "title":"Condition Branch"
+            },
+            {
+                "branches":
+                {
+                    "False":"1519077",
+                    "True":"4719741"
+                },
+                "filename":"res://Nodes/Condition Branch.tscn",
+                "node_name":"7162799",
+                "node_type":"condition_branch",
+                "offset":[1755,-850],
+                "text":"Message isnt nothing",
+                "title":"Condition Branch"
+            },
+            {
+                "character":["Player",0],
+                "expand":null,
+                "expand_size":[0,0],
+                "file":"",
+                "filename":"res://Nodes/Show Message.tscn",
+                "is_box":false,
+                "next":null,
+                "node_name":"3948557",
+                "node_type":"show_message",
+                "object_path":"",
+                "offset":[2600,-1005],
+                "slide_camera":true,
+                "speaker_type":0,
+                "text":
+                {
+                    "ENG":"Cant find the role"
+                },
+                "title":"Show Message"
+            },
+            {
+                "branches":
+                {
+                    "False":"5542574",
+                    "True":"8154645"
+                },
+                "filename":"res://Nodes/Condition Branch.tscn",
+                "node_name":"8317460",
+                "node_type":"condition_branch",
+                "offset":[3030,-1430],
+                "text":"message 2 is a valid hex color",
+                "title":"Condition Branch"
+            },
+            {
+                "character":["Akira",1],
+                "expand":null,
+                "expand_size":[0,0],
+                "file":"",
+                "filename":"res://Nodes/Show Message.tscn",
+                "is_box":false,
+                "next":null,
+                "node_name":"6096916",
+                "node_type":"show_message",
+                "object_path":"",
+                "offset":[3030,-1255],
+                "slide_camera":true,
+                "speaker_type":0,
+                "text":
+                {
+                    "ENG":"Wrong usage error!"
+                },
+                "title":"Show Message"
+            },
+            {
+                "branches":
+                {
+                    "False":"6096916",
+                    "True":"8317460"
+                },
+                "filename":"res://Nodes/Condition Branch.tscn",
+                "node_name":"1828654",
+                "node_type":"condition_branch",
+                "offset":[2615,-1345],
+                "text":"message 2 isnt nothing",
+                "title":"Condition Branch"
+            },
+            {
+                "branches":
+                {
+                    "False":"3675238",
+                    "True":"7091747"
+                },
+                "filename":"res://Nodes/Condition Branch.tscn",
+                "node_name":"5542574",
+                "node_type":"condition_branch",
+                "offset":[3500,-1340],
+                "text":"message 2 is a valid rgb color",
+                "title":"Condition Branch"
+            },
+            {
+                "branches":
+                {
+                    "False":"3948557",
+                    "True":"1828654"
+                },
+                "filename":"res://Nodes/Condition Branch.tscn",
+                "node_name":"4719741",
+                "node_type":"condition_branch",
+                "offset":[2200,-1050],
+                "text":"message 1 is a role",
+                "title":"Condition Branch"
+            },
+            {
+                "character":["Player",0],
+                "expand":null,
+                "expand_size":[0,0],
+                "file":"",
+                "filename":"res://Nodes/Show Message.tscn",
+                "is_box":true,
+                "next":null,
+                "node_name":"8154645",
+                "node_type":"show_message",
+                "object_path":"",
+                "offset":[3500,-1770],
+                "slide_camera":true,
+                "speaker_type":0,
+                "text":
+                {
+                    "ENG":"SEND SUCCESS MESSAGE USING HEX"
+                },
+                "title":"SUCCESS"
+            },
+            {
+                "character":["Akira",1],
+                "expand":null,
+                "expand_size":[0,0],
+                "file":"",
+                "filename":"res://Nodes/Show Message.tscn",
+                "is_box":false,
+                "next":null,
+                "node_name":"1519077",
+                "node_type":"show_message",
+                "object_path":"",
+                "offset":[2165,-760],
+                "slide_camera":true,
+                "speaker_type":0,
+                "text":
+                {
+                    "ENG":"Wrong usage of the command"
+                },
+                "title":"Show Message"
+            },
+            {
+                "character":["Akira",1],
+                "expand":null,
+                "expand_size":[0,0],
+                "file":"",
+                "filename":"res://Nodes/Show Message.tscn",
+                "is_box":true,
+                "next":null,
+                "node_name":"7091747",
+                "node_type":"show_message",
+                "object_path":"",
+                "offset":[3945,-1520],
+                "slide_camera":true,
+                "speaker_type":0,
+                "text":
+                {
+                    "ENG":"SEND SUCCESS MESSAGE USING RGB()"
+                },
+                "title":"Show Message"
+            },
+            {
+                "character":["Player",0],
+                "expand":null,
+                "expand_size":[0,0],
+                "file":"",
+                "filename":"res://Nodes/Show Message.tscn",
+                "is_box":false,
+                "next":null,
+                "node_name":"3675238",
+                "node_type":"show_message",
+                "object_path":"",
+                "offset":[3945,-1250],
+                "slide_camera":true,
+                "speaker_type":0,
+                "text":
+            {
+                "ENG":"No color found."
+            },
+            "title":"Show Message"
+            }
+        ],
+        "selected_language":"ENG",
+        "variables":{}
+    }
+]
+

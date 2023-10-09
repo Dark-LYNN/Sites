@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./assets/images/Akira.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akira - Discord Bot</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/test.css">
+    <script src="./assets/js/GTag.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YSD2Q72W1H"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-YSD2Q72W1H');
+    </script>
+</head>
+
+<body style="margin: 0!important;">
+    <header>
+        <nav class=" navbar nav-bar " role="navigation " aria-label="main navigation ">
+            <div class="navbar-brand ">
+                <a class="navbar-item " href="./ ">
+                    <p class="nav-name ">Akira</p>
+                </a><a role="button " class="navbar-burger burger " aria-label="menu " aria-expanded="false " data-target="navbar-unfold "><span aria-hidden="true "></span><span aria-hidden="true "></span><span aria-hidden="true "></span></a></div>
+            <div class="navbar-menu " id="navbar-unfold ">
+                <div class="navbar-end ">
+                    <a class="navbar-item nav-active" href="../ "><i class="nav-icons fas fa-home nav-fa "></i>Home</a>
+                    <a class="navbar-item " href="../commands "><i class="nav-icons fas fa-terminal nav-fa "></i>Commands</a>
+                    <a class="navbar-item " href="https://documentation.lynnux.xyz/ "><i class="nav-icons fas fa-book-open nav-fa "></i>Documentation</a>
+                    <a class="navbar-item " href="../permissions "><i class="nav-icons fas fa-check nav-fa "></i>Permissions</a>
+                    <a class="navbar-item " href="../support " target="_blank "><i class="nav-icons fab fa-discord nav-fa "></i>Support</a>
+                    <a class="navbar-item last-item " href="../invite " target="_blank "><i class="nav-icons fas fa-plus nav-fa "></i>Invite</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="banner ">
+        <div class="sec01 ">
+            <h1 class="text1 ">Akira</h1>
+            <h2>Unleash the power of efficiency with Akira, your all-in-one Discord solution.</h2>
+        </div>
+        <div class="banner-buttons ">
+            <a href="./commands/ ">
+                <button><span>Commands</span>
+                <svg viewBox="-5 -5 110 110 " preserveAspectRatio="none " aria-hidden="true ">
+                    <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0 "/>
+                </svg>
+                </button>
+            </a>
+            <a href="./status ">
+                <button><span> Status </span>
+                <svg viewBox="-5 -5 110 110 " preserveAspectRatio="none " aria-hidden="true ">
+                    <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0 "/>
+                </svg>
+                </button>
+            </a>
+            <a href="./invite/ ">
+                <button><span>Invite Akira</span>
+                <svg viewBox="-5 -5 110 110 " preserveAspectRatio="none " aria-hidden="true ">
+                    <path d="M0,0 C0,0 100,0 100,0 C100,0 100,100 100,100 C100,100 0,100 0,100 C0,100 0,0 0,0 "/>
+                </svg>
+                </button>
+            </a>
+
+        </div>
+        <div class="overlay ">
+
+        </div>
+    </section>
+    <main>
+        <div id="text-stats " style="z-index: 4; ">
+            <div class="flex items-center w-full relative ">
+                <div class="w-full flex items-center ">
+                    <p class="font-bold ml-3 text-light-500 truncate " style="margin: auto; color:#fff; font-size: xx-large; ">Statisics</p>
+                </div>
+            </div>
+        </div>
+        <div id="stats ">
+            <div data-v-972439db=" " class="statsdiv " id="stats ">
+                <div data-v-972439db=" " style="background-color: #f47fff; box-shadow: 0 0 25px black; " class="card "><span data-v-972439db=" " class="title ">Servers</span><span data-v-972439db=" " class="value ">172</span></div>
+                <div data-v-972439db=" " style="background-color: #f47fff; box-shadow: 0 0 25px black; " class="card "><span data-v-972439db=" " class="title ">Users</span><span data-v-972439db=" " class="value ">117.561</span></div>
+                <div data-v-972439db=" " style="background-color: #f47fff; box-shadow: 0 0 25px black; " class="card "><span data-v-972439db=" " class="title ">Commands</span><span data-v-972439db=" " class="value ">18</span></div>
+            </div>
+        </div>
+        <div id="text-feature " style="z-index: 4; ">
+            <div class="flex items-center w-full relative ">
+                <div class="w-full flex items-center ">
+                    <p class="mt-3 font-bold ml-3 text-light-500 truncate " style="margin: auto; color:#fff; font-size: xx-large; ">Features</p>
+                </div>
+            </div>
+        </div>
+        <div id="ft-0 " class="items-center ">
+            <div id="ft-1 " class="row ">
+                <div id="ft-2 " class="col-lg-5 col-12 col-120 ">
+                    <div class="card1 auth-card bg-transparent shadow-none rounded-0 mb-0 w-100 ">
+                        <div class="card-content ">
+                            <div class="card-body text-center ">
+                                <img src="./assets/images/Feature.png " alt="Feature " class="img-fluid img-transition-fade round " width="400 " height="250 " loading="lazy ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="ft-3 " class="col-lg-5 col-12 col-120 ">
+                    <div class="card1 auth-card bg-transparent shadow-none rounded-0 mb-0 w-100 ">
+                        <div class="card-content ">
+                            <div class="card-body text-lg-left ">
+                                <h3 class="text-primary font-bold ft-12 "><i class="feather icon-user-plus text-primary "></i> Something here </h3>
+                                <p>I dont know what gonne be here yet sorry :(.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ft-0 " class="items-center hide-on-pc ">
+            <div id="ft-1 " class="row hide-on-pc ">
+                <div id="ft-2 " class="col-lg-5 col-12 col-120 hide-on-pc ">
+                    <div class="card1 auth-card bg-transparent shadow-none rounded-0 mb-0 w-100 ">
+                        <div class="card-content ">
+                            <div class="card-body text-center ">
+                                <img src="./assets/images/Feature.png " alt="Feature " class="img-fluid img-transition-fade round " width="400 " height="250 " loading="lazy ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="ft-3 " class="col-lg-5 col-12 col-120 hide-on-pc ">
+                    <div class="card1 auth-card bg-transparent shadow-none rounded-0 mb-0 w-100 ">
+                        <div class="card-content ">
+                            <div class="card-body text-lg-left ">
+                                <h3 class="text-primary font-bold ft-12 "><i class="feather icon-user-plus text-primary "></i> Something here </h3>
+                                <p>I dont know what gonne be here yet sorry :(.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ft-0 " class="items-center hide-on-mobile ">
+            <div id="ft-1 " class="row hide-on-mobile ">
+                <div id="ft-3 " class="col-lg-5 col-12 col-120 hide-on-mobile ">
+                    <div class="card1 auth-card bg-transparent shadow-none rounded-0 mb-0 w-100 ">
+                        <div class="card-content ">
+                            <div class="card-body text-lg-left ">
+                                <h3 class="text-primary font-bold ft-12 "><i class="feather icon-user-plus text-primary "></i> Something here </h3>
+                                <p>I dont know what gonne be here yet sorry :(.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="ft-2 " class="col-lg-5 col-12 col-120 hide-on-mobile ">
+                    <div class="card1 auth-card bg-transparent shadow-none rounded-0 mb-0 w-100 ">
+                        <div class="card-content ">
+                            <div class="card-body text-center ">
+                                <img src="./assets/images/Feature.png " alt="Feature " class="img-fluid img-transition-fade round " width="400 " height="250 " loading="lazy ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ft-0 " class="items-center ">
+            <div id="ft-1 " class="row ">
+                <div id="ft-2 " class="col-lg-5 col-12 col-120 ">
+                    <div class="card1 auth-card bg-transparent shadow-none rounded-0 mb-0 w-100 ">
+                        <div class="card-content ">
+                            <div class="card-body text-center ">
+                                <img src="./assets/images/Feature.png " alt="Feature " class="img-fluid img-transition-fade round " width="400 " height="250 " loading="lazy ">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="ft-3 " class="col-lg-5 col-12 col-120 ">
+                    <div class="card1 auth-card bg-transparent shadow-none rounded-0 mb-0 w-100 ">
+                        <div class="card-content ">
+                            <div class="card-body text-lg-left ">
+                                <h3 class="text-primary font-bold ft-12 "><i class="feather icon-user-plus text-primary "></i> Something here </h3>
+                                <p>I dont know what gonne be here yet sorry :(.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="text-stats " style="z-index: 4; ">
+            <div class="flex items-center w-full relative ">
+                <div class="w-full flex items-center ">
+                    <p class="mt-3 font-bold ml-3 text-light-500 truncate " style="margin: auto; color:#fff; font-size: xx-large; ">Featured guilds</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="guilds " class="flex flex-col mt-5 mb-5 gap-2 overflow-hidden relative ">
+            <div class="blur-box "></div>
+            <div class="flex w-full w-1400 forward-animate " style="color: white; ">
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="⊹˳˚˖The Boring Cafe˖˚˳⊹ " srcset="./assets/images/54ec2d4aba5cc7497a911241f889f6f1.png " src="./assets/images/54ec2d4aba5cc7497a911241f889f6f1.png " width="40 " height="40 " decoding="async " data-nimg="1
+    " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">⊹˳˚˖The Boring Cafe˖˚˳⊹</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">22</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around "><img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full
+    " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex w-full w-1400 backward-animate " style="color: white; ">
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around "><img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full
+    " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex h-18 w-full p-4 items-center ">
+                    <div class="rounded-lg flex bg-[#303A52] h-18 py-5 px-5 pr-7 transition w-95 duration-300 justify-between items-center ">
+                        <div class="flex items-center justify-around ">
+                            <img alt="N/A " srcset="./assets/images/Not-Available.png " src="./assets/images/Not-Available.png " width="40 " height="40 " decoding="async " data-nimg="1 " class="rounded-full " loading="lazy " style="color: transparent; ">
+                            <h4 class="font-bold ml-3 text-light-500 w-50 truncate ">Not Available</h4>
+                            <div class="flex items-around "><svg stroke="currentColor " fill="currentColor " stroke-width="0 " viewBox="0 0 448 512 " class="mr-2 " height="1em " width="1em " xmlns="http://www.w3.org/2000/svg "><path d="M224 256c70.7
+    0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z "></path></svg>
+                                <h4 class="font-normal ">000</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer ">
+        <nav class="navigation-footer ">
+            <div class="section-entry ">
+                <h3>Akira Bot</h3>
+                <a href="./permissions " data-preload-link="true " data-preload-link-activated="true ">Permissions</a>
+                <a href="./support " data-preload-link="true " data-preload-link-activated="true ">Support Server</a>
+                <a href="./commands " data-preload-link="true " data-preload-link-activated="true ">Commands</a>
+                <a href="./donate ">Premium</a>
+                <a href="./status ">Status</a>
+            </div>
+            <div class="section-entry ">
+                <h3>About us</h3>
+                <a href="./blog ">Dev notes</a>
+                <a href="./contact ">Contact Us</a>
+                <a href="./staff ">Our Team</a>
+                <a href="./todo">ToDo List</a>
+            </div>
+            <div class="section-entry ">
+                <h3>Resources</h3>
+                <a href="./terms ">Terms of Service</a>
+                <a href="./policy ">Privacy Policy</a>
+            </div>
+        </nav>
+        <p style="text-align: center; ">Akira 2023 — All rights reserved</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js "></script>
+    <script>
+        $(document).ready(function() {
+            $(".navbar-burger ").click(function() {
+                $(".navbar-burger ").toggleClass("is-active ");
+                $(".navbar-menu ").toggleClass("is-active ");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
+
+<!--⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣿⡟⠙⠛⠋⠩⠭⣉⡛⢛⠫⠭⠄⠒⠄⠄⠄⠈⠉⠛⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⡇⠄⠄⠄⠄⣠⠖⠋⣀⡤⠄⠒⠄⠄⠄⠄⠄⠄⠄⠄⠄⣈⡭⠭⠄⠄⠄⠉⠙
+⣿⡇⠄⠄⢀⣞⣡⠴⠚⠁⠄⠄⢀⠠⠄⠄⠄⠄⠄⠄⠄⠉⠄⠄⠄⠄⠄⠄⠄⠄
+⣿⡇⠄⡴⠁⡜⣵⢗⢀⠄⢠⡔⠁⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄
+⣿⡇⡜⠄⡜⠄⠄⠄⠉⣠⠋⠠⠄⢀⡄⠄⠄⣠⣆⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⢸
+⣿⠸⠄⡼⠄⠄⠄⠄⢰⠁⠄⠄⠄⠈⣀⣠⣬⣭⣛⠄⠁⠄⡄⠄⠄⠄⠄⠄⢀⣿
+⣏⠄⢀⠁⠄⠄⠄⠄⠇⢀⣠⣴⣶⣿⣿⣿⣿⣿⣿⡇⠄⠄⡇⠄⠄⠄⠄⢀⣾⣿
+⣿⣸⠈⠄⠄⠰⠾⠴⢾⣻⣿⣿⣿⣿⣿⣿⣿⣿⣿⢁⣾⢀⠁⠄⠄⠄⢠⢸⣿⣿
+⣿⣿⣆⠄⠆⠄⣦⣶⣦⣌⣿⣿⣿⣿⣷⣋⣀⣈⠙⠛⡛⠌⠄⠄⠄⠄⢸⢸⣿⣿
+⣿⣿⣿⠄⠄⠄⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠈⠄⠄⠄⠄⠄⠈⢸⣿⣿
+⣿⣿⣿⠄⠄⠄⠘⣿⣿⣿⡆⢀⣈⣉⢉⣿⣿⣯⣄⡄⠄⠄⠄⠄⠄⠄⠄⠈⣿⣿
+⣿⣿⡟⡜⠄⠄⠄⠄⠙⠿⣿⣧⣽⣍⣾⣿⠿⠛⠁⠄⠄⠄⠄⠄⠄⠄⠄⠃⢿⣿
+⣿⡿⠰⠄⠄⠄⠄⠄⠄⠄⠄⠈⠉⠩⠔⠒⠉⠄⠄⠄⠄⠄⠄⠄⠄⠄⠄⠐⠘⣿
+⣿⠃⠃⠄⠄⠄⠄⠄⠄⣀⢀⠄⠄⡀⡀⢀⣤⣴⣤⣤⣀⣀⠄⠄⠄⠄⠄⠄⠁⢹⠀
+⣿⣿⣿⠏⠉⠉⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⠀⠀⢀⣿⣿⣿⠿⠿⢿⠿⠿⢿⠿⠿⠿⠿⠿⣿⣿⠿⠿⠿⠿⠿⣿⣿⣿
+⣿⣿⡟⠀⠀⣸⣿⣿⡏⠀⠀⣿⠀⠀⣸⠀⠀⠀⠀⠀⢸⡿⠀⠀⠀⠀⠀⣹⣿⣿⣿⣿
+⣿⣿⡇⠀⠀⠛⠛⠛⡇⠀⠀⠇⠀⠀⡟⠀⠀⡞⠀⠀⠼⠇⠀⠀⡇⠀⠀⢿⣿⣿⣿⣿
+⣿⣿⡃⠀⠀⠀⠀⢠⡇⠀⠀⠀⠀⢀⣇⣀⣀⣧⡀⠀⣀⣀⣀⣠⣆⠀⠀⣸⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⠁⠀⠈⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣧⣤⣤⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+
+-->

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../assets/Octo.jpg">
+
+    <title>Octo - Commands</title>
+
+    <meta name="theme-color" content="#F95243" />
+    <meta property="og:type" content="website">
+    <meta propert="og:url" content="octo.finki.xyz/commands">
+    <meta property="og:title" content="Octo - The Discord Bot">
+    <meta property="og:description" content="I'm a bot developed to spread smell of entertainment & fun!">
+    <meta property="og:image" content="/assets/Octo.jpg">
+    <meta property="og:image:type" content="image/jpg">
+    <meta property="og:image:width" content="256">
+    <meta property="og:image:height" content="256">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="/">
+                <img src="../assets/Octo.jpg" alt="" width="50" height="50" class="rounded-circle"> &nbsp;
+                <span>Octo</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#/">Commands</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../team">Staff</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="linksdrop" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Links</a>
+                        <ul class="dropdown-menu bgn" aria-labelledby="linksdrop">
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="https://discord.com/oauth2/authorize?client_id=705125740886229103&scope=bot+applications.commands&permissions=8" target="_blank">Invite Bot</a>
+                            </li>
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="https://discord.gg/fCqwyMXBw8" target="_blank">Support Server</a></li>
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="../faq.html">FAQ</a></li>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-muted font-weight-bold" href="">View Documentation</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex ml-auto" id="headerlogin">
+                    <li class="nav-item" style="list-style: none;">
+                        <a class="nav-link btn btn-outline-secondary login" href="../invite">Invite</a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </div>
+
+    <div class="jumbotron text-center bg-transparent">
+        <h1 class="commandstitle">Commands</h1>
+        <p class="lead commandssub">View the commands for Octo.</p>
+        <hr>
+        <input id="myInput" type="text" class="searchbox" placeholder="Search">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="border"></div>
+        <br>
+        <br>
+        <br>
+        <div id="myCmd">
+            <br>
+            <button type="button" class="collapsible">setprefix<span> - Check/Changes bot's prefix</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Utility</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!setprefix &#60;New Prefix&#62;</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!setprefix !</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">help<span> - Check the commands list</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">General</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!help</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!help</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">info<span> - Get detailed information about a command</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Utility</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!info &#60;command&#62;</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!info setprefix;</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">invite<span> - Get the link to invite octo</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Utility</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!invite</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!invite</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">support<span> - Get the link to support server</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Utility</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!support</p>
+                <h4 style="color: #cccccc;">Examples:</h4>
+                <p>o!support</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">feedback<span> - Send your feedback about octo the the developers</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Utility</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!feedback &#60;message&#62;</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!feedback I realy like the bot but would like to see ...</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">ping<span> - See the responce time of the bot</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Utility</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!ping &#60;message&#62;</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!ping</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">credits<span> - See who helped in the proccess of octo</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Utility</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!credits</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!credits</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">lottery<span> - make a bet in the lottery</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Games</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!lottery &#60;amount&#62;</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!lottery 1000</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">ticket<span> - Buy a ticket for the server lottery</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Games</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!ticket &#60;amount&#62;</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!ticket 1</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">treasure<span> - Collect 10 maps, finish quest before time and claim precious treasure</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Games</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!treasure2;</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!treasure</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">speed<span> - Show your skills with typing code asap before time to get rewards</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Games</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!speed &#60;code&#62;</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!speed FRE4E1</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">claim<span> - claim your daily rewards</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Income</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!claim</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!claim</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">dive<span> - collect some rewards</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Income</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!dive</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!dive</p>
+                <h4 style="color: #cccccc;">Extra:</h4>
+                <p>This command has a 12 Hour cooldown.</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">swim<span> - collect some rewards</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Income</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!swim</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!swim</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">splash<span> - collect some rewards</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Income</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!splash</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!splash</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">surf<span> - collect some rewards</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Income</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!surf</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!surf</p>
+            </div>
+            <br>
+            <br>
+            <button type="button" class="collapsible">grab<span> - collect some rewards</span></button>
+            <div class="content">
+                <h4 style="color: #cccccc;">Category:</h4>
+                <p style="color: #D9230F;">Income</p>
+                <h4 style="color: #cccccc;">Usage:</h4>
+                <p>o!grab</p>
+                <h4 style="color: #cccccc;">Example:</h4>
+                <p>o!grab</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mastfoot mb-auto">
+            <div class="container-fluid mb-auto">
+                <div class="row d-flex justify-content-center">
+                    <div class="">
+                        <p style="font-size: 14px; padding: 0px; margin: 0px;"><a href="https://github.com/Dark-LYNN"
+                                style="text-decoration: none; color: white;">Made with 💖 by Lynn</a></br>Octo © 2021. All rights reserved.</br></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

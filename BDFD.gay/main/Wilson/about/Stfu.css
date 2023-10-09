@@ -1,0 +1,202 @@
+*{
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  text-decoration: none;
+  padding: 0;
+  background-color: #8B8DA7;
+  font-family: Arial;
+}
+
+header {
+  background-color: #42445A;
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  padding-left: 10px;
+  display: inline-flex;
+  padding-right: 10px;
+}
+
+h2 {
+  display: inline;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 17px;
+  background-color: #42445A;
+}
+
+h2:active {
+  color: black;
+}
+
+h2:visited {
+  color: black;
+}
+
+.cont {
+  border: 1px solid black;
+  height: 60px;
+  background-color: #42445A;
+}
+
+h3 {
+  color: #242742;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+img {
+  width: 300px;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+footer {
+  background-color: #42445A;
+  color: white;
+  margin-top: 99px;
+  padding: 34px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.kl {
+  display: inline;
+  padding-left: 7px;
+  padding-right: 0;
+  font-size: 17px;
+  background-color: #42445A;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+/* http://localhost:7700/Stcu/Stfu.html */
+
+@media only screen and (min-width: 600px) {
+  
+* {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  padding: 0;
+  background-color: #8B8DA7;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+header {
+  background-color: #42445A;
+  color: white;
+  padding-top: 13px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  padding-left: 10px;
+  display: inline-flex;
+  padding-right: 10px;
+}
+
+.fu {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 20px;
+  font-size: 17px;
+  background-color: #42445A;
+}
+
+h2 {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 17px;
+  background-color: #42445A;
+}
+
+h2:active {
+  color: black;
+}
+
+h2:visited {
+  color: black;
+}
+
+.cont {
+  border: 1px solid black;
+  height: 60px;
+  background-color: #42445A;
+}
+
+h3 {
+  color: #242742;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  margin-left: 100px;
+}
+
+img {
+  width: 300px;
+  align-items: center;
+  margin-top: 30px;
+  justify-content: center;
+  display: inline-flex;
+  margin-left: 320px;
+  margin-right: 40px;
+}
+
+footer {
+  background-color: #42445A;
+  color: white;
+  margin-top: 70px;
+  padding: 27px;
+  align-items: center;
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.kl {
+  display: inline;
+  padding-left: 20px;
+  padding-right: 0;
+  font-size: 17px;
+  background-color: #42445A;
+}
+
+a:active {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
+}

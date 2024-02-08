@@ -1,0 +1,30 @@
+[
+    {
+        "Skills": {
+            "ridden": "https://example.com/image-of-ridden-skill.png"
+        },
+        "drops": {
+            "Flame Organ": "https://example.com/image-of-flame-organ.png",
+            "High Quality Pal Oil": "https://example.com/image-of-High-Quality-Pal-Oil.png"
+        },
+        "pals": {
+            "101": {
+                "Number": 101,
+                "Name": "Jormuntide Ignis",
+                "ImageOfPal": "https://example.com/example.png",
+                "Element": [
+                    "Dragon",
+                    "Fire"
+                ],
+                "Skill": "ridden",
+                "work": [
+                    "Kindling-Lvl4"
+                ],
+                "Drops":[
+                    "Flame Organ",
+                    "High Quality Pal Oil"
+                ]
+            }
+        }
+    }
+]

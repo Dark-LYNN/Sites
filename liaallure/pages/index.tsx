@@ -3,10 +3,15 @@ import Img from 'next/image';
 import Head from 'next/head';
 import '../public/style.css';
 import Script from 'next/script';
+import { addSparkleEffect } from '../components/interface/sparkle';
 
 
 
 const Index = () => {
+    useEffect(() => {
+        addSparkleEffect();
+    }, []);
+
     console.log(`
     Site made by LynnuxDev => https://lynnux.xyz/
     

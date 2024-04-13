@@ -1,7 +1,5 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
-import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
-import { addSparkleEffect } from '../components/interface/sparkle';
 
 interface MyNextData {
   page: {
@@ -24,16 +22,12 @@ class MyDocument extends Document {
     const is404Page = pathname === '/404';
     const isHomePage = pathname === '/';
 
-    useEffect(() => {
-      addSparkleEffect();
-    }, []);
+
   
     return (
       <Html>
         <Head>
             {/* Dev Credit */}
-            <script src='https://cdn.lynnux.xyz/assets/Sparkle.js'/>
-
             <meta name="author" content="LynnuxDev"/>
 
             {/* Main */}

@@ -22,12 +22,13 @@ class MyDocument extends Document {
     const is404Page = pathname === '/404';
     const isHomePage = pathname === '/';
 
-
   
     return (
       <Html>
         <Head>
             {/* Dev Credit */}
+            <script src='https://cdn.lynnux.xyz/assets/Sparkle.js' async/>
+
             <meta name="author" content="LynnuxDev"/>
 
             {/* Main */}
